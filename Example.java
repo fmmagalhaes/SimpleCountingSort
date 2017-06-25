@@ -7,7 +7,7 @@ public class Example {
 
 		int array[] = createRandomArray(length);
 
-		// int sortedArray[] = new CountSort().sort(array, V-1);
+		// int sortedArray[] = new CountSort().sort(array, length-1);
 		int sortedArray[] = new SimpleCountingSort().sort(array);
 		for (int i = 0; i < sortedArray.length; i++)
 			System.out.println(sortedArray[i]);

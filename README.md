@@ -6,8 +6,12 @@ It sorts and array of positive integers with linear complexity.
 https://en.wikipedia.org/wiki/Counting_sort
 
 Compile:  
+```
 javac SimpleCountingSort.java   
 javac Example.java
+```
 
 Run:  
-java SimpleCountingSort \<length\>
+```
+java SimpleCountingSort \<length\> // length is the size of the randomly generated array to be sorted
+```

@@ -13,5 +13,5 @@ javac Example.java
 
 Run:  
 ```
-java SimpleCountingSort \<length\> // length is the size of the randomly generated array to be sorted
+java SimpleCountingSort <length> // length is the size of the randomly generated array to be sorted
 ```
